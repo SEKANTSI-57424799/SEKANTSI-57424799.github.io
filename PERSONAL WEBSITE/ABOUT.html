@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> ABOUT </title>
+		<!-- remember, jQuery is completely optional -->
+		<!-- <script type='text/javascript' src='js/jquery-1.11.1.min.js'></script> -->
+		<script type="text/javascript" src="js/jquery.particleground.js"></script>
+		<script type="text/javascript" src="js/demo.js"></script>
+		<link rel ="stylesheet" href="CSS.css" type="text/css">
+		<style>
+			.navigation{
+				background: grey;
+				opacity:.9;
+				height:80px;
+				line-height: 22px;
+				color: #fff;
+				position: relative;
+				padding-right: 15px;
+				padding-left: 15px;
+				margin-right: auto;
+				margin-left: auto;
+			}
+			.navigation ul{
+				margin: 0px;
+				padding: 0px;
+				list-style: none;  
+			}
+			.navigation ul li{
+				float:right;
+				width: 200px;
+				height: 40px;
+				opacity: .8;
+				line-height: 40px;
+				text-align: center;
+			}
+			.navigation ul li a{
+				margin-top: 10px;
+				text-decoration: none;
+				color:white;
+				display: block;  
+			}
+			 .navigation ul li a:hover{
+				background-color: green;
+				
+			}
+			.navigation ul li ul li {
+				display: none;
+				background: grey;
+				opacity:.9;
+			}
+			.navigation ul li:hover ul li {
+			   display: block;
+			   
+			}
+
+			.navigation ul li:hover ul li a{
+			   display: block;
+			   
+			}
+
+			/* visited link */
+			a:visited {
+			  color: green;
+			}
+
+			/* mouse over link */
+			a:hover {
+			  color: hotpink;
+			}
+
+			/* selected link */
+			a:active{
+			  color: blue;
+			} 
+			 .contact
+			 {
+				position: absolute;
+				left: 0;
+				top: 20%;
+				padding: 0 10px;
+				width: 100%;
+				text-align: center; 
+			 }
+		</style>
+    </head>
+    <body>
+		<div class = "navigation">
+			<ul>
+				<li><a href="CONTACT_INFO.html">Contacts</a></li>
+				<li><a href="#">About</a>
+					<ul>
+						<li><a href="PROFILE.html">PROFILE</a></li>
+						<li><a href="SKILLS.html">SKILLS</a></li>
+						<li><a href="QUALIFICATIONS.html">QUALIFICATIONS</a></li>
+						<li><a href="CAREER_OBJECTIVES.html">CAREER OBJECTIVES</a></li>
+					</ul>
+				</li>
+				<li><a href="HOME.html">Home</a></li>
+			</ul>
+		</div>
+		<div id="particles">
+			<div id="intro">
+				
+			</div>
+		</div>
+    </body>
+</html>
