@@ -14,14 +14,12 @@ html, body {
 
 body
 {
-	background-image: URL('./IMAGES/bck.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin: 0px;
 	padding: 0px;
 }
 .navigation{
-	background: grey;
 	opacity:.9;
 	height:80px;
 	line-height: 22px;
@@ -39,7 +37,7 @@ body
 }
 .navigation ul li{
     float:right;
-    width: 200px;
+    width: 100px;
     height: 40px;
     opacity: .8;
     line-height: 40px;

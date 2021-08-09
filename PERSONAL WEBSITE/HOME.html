@@ -2,32 +2,48 @@
 <html>
     <head>
         <title> HOME PAGE </title>
-		  <!-- remember, jQuery is completely optional -->
-		  <!-- <script type='text/javascript' src='js/jquery-1.11.1.min.js'></script> -->
-		  <script type="text/javascript" src="js/jquery.particleground.js"></script>
-		  <script type="text/javascript" src="js/demo.js"></script>
-		  <link rel ="stylesheet" href="CSS.css" type="text/css">
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" type="text/css">
+		<!-- remember, jQuery is completely optional -->
+		<!-- <script type='text/javascript' src='js/jquery-1.11.1.min.js'></script> -->
+		<script type="text/javascript" src="js/jquery.particleground.js"></script>
+		<script type="text/javascript" src="js/demo.js"></script>
+		<link rel ="stylesheet" href="CSS.css" type="text/css">
+		<style>
+			.text h1
+			{
+				text-align:center;
+				color:yellow;
+				text-transform:uppercase;
+				padding-top:285px;
+				font-weight: bold;
+				font-size: 45px;
+			}
+			.text a
+			{
+				border: 1px solid yellow;
+				padding: 10px 25px;
+				text-decoration: none;
+				text-transform: uppercase;
+				display: inline-block;
+				color: yellow;
+				font-weight: bold;
+			}
+		</style>
     </head>
     <body>
-		<div class = "navigation">
-			<ul>
-				<li><a href="CONTACT_INFO.html">Contacts</a></li>
-				<li><a href="ABOUT.html">About</a>
-					<ul>
-						<li><a href="PROFILE.html">PROFILE</a></li>
-						<li><a href="SKILLS.html">SKILLS</a></li>
-						<li><a href="QUALIFICATIONS.html">QUALIFICATIONS</a></li>
-						<li><a href="CAREER_OBJECTIVES.html">CAREER OBJECTIVES</a></li>
-					</ul>
-				</li>
-				<li><a href="#">Home</a></li>
-			</ul>
-		</div>
-		<div id="particles">
-			<div id="intro">
-				
-			</div>
-		</div>
 		
+			<div class = "navigation">
+				<ul>
+					<li><a href="ABOUT_US.html">About</a></li>
+					<li><a href="#">Home</a></li>
+				</ul>
+			</div>
+			<div class="text">
+				<marquee width="30%"><h1>Welcome to Sekantsi's Website</h1></marquee>
+				<a href="ABOUT_US.html">About Sekantsi</a>
+			</div>
+		<div id="particles">
+		</div>
     </body>
 </html>
